@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="ca">
 <head>
+    <meta charset="UTF-8">
     <title>Descàrregues Ratitus</title>
     <style>
-        body { background: #000; color: white; text-align: center; font-family: sans-serif; padding: 50px; }
-        .boto { display: block; padding: 20px; margin: 10px auto; width: 200px; border-radius: 10px; color: white; text-decoration: none; font-weight: bold; }
-        .verde { background: #28a745; }
-        .azul { background: #007bff; }
+        body { background: #000; color: white; text-align: center; font-family: sans-serif; padding: 50px; margin: 0; }
+        .boto { display: block; padding: 20px; margin: 15px auto; width: 280px; border-radius: 12px; color: white; text-decoration: none; font-weight: bold; font-size: 20px; transition: 0.2s; border: none; cursor: pointer; }
+        .verde { background: #28a745; box-shadow: 0 4px #1e7e34; }
+        .azul { background: #007bff; box-shadow: 0 4px #0056b3; }
+        .boto:active { transform: translateY(4px); box-shadow: none; }
     </style>
 </head>
 <body>
-    <h1>🎮 Jocs per a GameBoy</h1>
-    <a href="aventura sin conexión de dinosaurios.gb" download class="boto verde">DINOSAURIO</a>
+    <h1 style="margin-bottom: 40px;">🕹️ Biblioteca de Jocs</h1>
+    
+    <a href="dinosofflineadventure.gb" download class="boto verde">DINOSAURIO</a>
+    
     <a href="sheepitup.gb" download class="boto azul">SHEEP IT UP</a>
 </body>
 </html>
