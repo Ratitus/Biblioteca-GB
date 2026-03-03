@@ -2,20 +2,42 @@
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <title>Descàrregues Ratitus</title>
+    <title>BIBLIOTECA GB - MARC</title>
     <style>
-        body { background: #000; color: white; text-align: center; font-family: sans-serif; padding: 50px; margin: 0; }
-        .boto { display: block; padding: 20px; margin: 15px auto; width: 280px; border-radius: 12px; color: white; text-decoration: none; font-weight: bold; font-size: 20px; transition: 0.2s; border: none; cursor: pointer; }
-        .verde { background: #28a745; box-shadow: 0 4px #1e7e34; }
-        .azul { background: #007bff; box-shadow: 0 4px #0056b3; }
+        body { font-family: sans-serif; text-align: center; background-color: #f0f0f0; }
+        .contenedor { margin-top: 50px; }
+        .boto {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        /* Color per al teu joc del Raptor */
+        .verde { background: #4CAF50; box-shadow: 0 4px #388E3C; }
+        /* Color per al Sheep It Up */
+        .azul { background: #2196F3; box-shadow: 0 4px #1976D2; }
+        /* Color nou per al UCity Advance */
+        .rosa { background: #e91e63; box-shadow: 0 4px #ad1457; }
+        
         .boto:active { transform: translateY(4px); box-shadow: none; }
     </style>
 </head>
 <body>
-    <h1 style="margin-bottom: 40px;">🕹️ Biblioteca de Jocs</h1>
-    
-    <a href="dinosofflineadventure.gb" download class="boto verde">DINOSAURIO</a>
-    
-    <a href="sheepitup.gb" download class="boto azul">SHEEP IT UP</a>
+
+    <h1>LA MEVA BIBLIOTECA GB</h1>
+    <p>Descarrega els jocs i puja'ls al WebBoy per jugar!</p>
+
+    <div class="contenedor">
+        <a href="raptor.gb" download class="boto verde">DINOSAURIO (RAPTOR)</a>
+
+        <a href="sheep-it-up.gb" download class="boto azul">SHEEP IT UP</a>
+
+        <a href="ucity-advance-v1.0.3.gba" download class="boto rosa">UCITY ADVANCE</a>
+    </div>
+
 </body>
 </html>
